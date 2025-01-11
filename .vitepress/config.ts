@@ -12,8 +12,6 @@ const nav: ThemeConfig['nav'] = [
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
       { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
       { text: 'Quick Start', link: '/guide/quick-start' },
       // { text: 'Style Guide', link: '/style-guide/' },
       { text: 'Glossary', link: '/glossary/' },
@@ -102,38 +100,6 @@ const nav: ThemeConfig['nav'] = [
       }
     ]
   },
-  {
-    text: 'About',
-    activeMatch: `^/about/`,
-    items: [
-      { text: 'FAQ', link: '/about/faq' },
-      { text: 'Team', link: '/about/team' },
-      { text: 'Releases', link: '/about/releases' },
-      {
-        text: 'Community Guide',
-        link: '/about/community-guide'
-      },
-      { text: 'Code of Conduct', link: '/about/coc' },
-      { text: 'Privacy Policy', link: '/about/privacy' },
-      {
-        text: 'The Documentary',
-        link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
-      }
-    ]
-  },
-  {
-    text: 'Sponsor',
-    link: '/sponsor/'
-  },
-  {
-    text: 'Experts',
-    badge: { text: 'NEW' },
-    activeMatch: `^/(partners|developers)/`,
-    items: [
-      { text: 'Partners', link: '/partners/' },
-      { text: 'Developers', link: '/developers/', badge: { text: 'NEW' } }
-    ]
-  }
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
