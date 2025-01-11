@@ -13,17 +13,6 @@ const nav: ThemeConfig['nav'] = [
     items: [
       { text: 'Guide', link: '/guide/introduction' },
       { text: 'Quick Start', link: '/guide/quick-start' },
-      // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
-      {
-        text: 'Vue 2 Docs',
-        link: 'https://v2.vuejs.org'
-      },
-      {
-        text: 'Migration from Vue 2',
-        link: 'https://v3-migration.vuejs.org/'
-      }
     ]
   },
   {
@@ -694,10 +683,6 @@ export default defineConfigWithTheme<ThemeConfig>({
       }
     },
 
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
-    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/' },
